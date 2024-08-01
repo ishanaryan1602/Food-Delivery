@@ -38,26 +38,51 @@
   background: #fff4f2;
 }
 
-.navbar .active {
-  padding-bottom: 2px;
-  border-bottom: 2px solid #49557e;
+.navbar li.active {
+  color: tomato;
+  transition: 0.3s;
 }
 
-.navbar li{
-    cursor: pointer;
+.navbar .active::before {
+  content: "";
+  position: absolute;
+  background: tomato;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 4px;
+  animation: borderElongate 0.3s forwards;
+  border-radius: 10px;
 }
 
-.navbar-search-icon{
-    position: relative;
+@keyframes borderElongate {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
-.navbar-search-icon .dot{
-    position: absolute;
-    top: -6px;
-    left: 30px;
-    transform: translate(-50%, -50%);
-    min-width: 10px;
-    min-height: 10px;
-    background: tomato;
-    border-radius: 50%;
+.navbar li {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.navbar-search-icon {
+  position: relative;
+}
+
+.navbar-search-icon .dot {
+  position: absolute;
+  top: -6px;
+  left: 30px;
+  transform: translate(-50%, -50%);
+  min-width: 10px;
+  min-height: 10px;
+  background: tomato;
+  border-radius: 50%;
 }

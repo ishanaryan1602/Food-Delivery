@@ -7,6 +7,7 @@
 
 .navbar .logo {
   width: 150px;
+  margin-bottom: 10px;
 }
 
 .navbar-menu {
@@ -38,7 +39,7 @@
   background: #fff4f2;
 }
 
-.navbar li.active {
+.navbar .active {
   color: tomato;
   transition: 0.3s;
 }
@@ -65,7 +66,7 @@
   }
 }
 
-.navbar li {
+.navbar a {
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -85,4 +86,50 @@
   min-height: 10px;
   background: tomato;
   border-radius: 50%;
+}
+
+@media (max-width: 1050px) {
+  .navbar .logo {
+    width: 120px;
+    margin-bottom: 7px;
+  }
+  .navbar-menu {
+    gap: 20px;
+    font-size: 17px;
+  }
+  .navbar-right {
+    gap: 30px;
+  }
+  .navbar-right img {
+    width: 22px;
+  }
+  .navbar-right button {
+    padding: 8px 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar .logo {
+    width: 100px;
+  }
+  .navbar-menu {
+    gap: 15px;
+    font-size: 15px;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
+  .navbar-right img {
+    width: 18px;
+  }
+  .navbar-right button {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar-menu {
+    display: none;
+  }
 }

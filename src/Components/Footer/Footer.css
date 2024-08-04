@@ -55,7 +55,13 @@
     border-bottom: 0px;
 }
 
-/* jira
-project management 
-
-activity tracker  */
+@media (max-width: 750px) {
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .foooter-copyright{
+    text-align: center;
+  }
+}

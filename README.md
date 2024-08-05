@@ -2,7 +2,7 @@
 
 <!-- [Live Demo](https://gemini-clone-eight-rosy.vercel.app/) -->
 
-Food delivery is a dynamic food delivery app built with the MERN stack, offering users a smooth and intuitive experience for ordering their favorite meals and managing their deliveries with ease.
+Food Delivery is a dynamic and user-friendly application built with the React, designed to offer a seamless experience for ordering meals and managing deliveries. Whether you're craving a quick snack or a full meal, our app makes it easy to browse, select, and enjoy your favorite dishes with just a few clicks.
 
 ## Table of Contents
 
@@ -12,9 +12,7 @@ Food delivery is a dynamic food delivery app built with the MERN stack, offering
 
 ## Features
 
-- **Responsive Sidebar**: Toggleable sidebar with smooth transitions.
-- **New Chat Interface**: Easy-to-use chat initiation with dynamic content display.
-- **Recent Activity Management**: Displays recent chats and activities.
+- **Responsive**: Responsive pages.
 - **Interactive UI Elements**: Intuitive design with visual feedback on interactions.
 
 ## Technologies Used

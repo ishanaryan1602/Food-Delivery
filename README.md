@@ -1,6 +1,6 @@
 # Food Delivery App
 
-<!-- [Live Demo](https://gemini-clone-eight-rosy.vercel.app/) -->
+[Live Demo](https://food-delivery-fullstack-blush.vercel.app/)
 
 Food Delivery is a dynamic and user-friendly application built with the React, designed to offer a seamless experience for ordering meals and managing deliveries. Whether you're craving a quick snack or a full meal, our app makes it easy to browse, select, and enjoy your favorite dishes with just a few clicks.
 

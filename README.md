@@ -31,6 +31,9 @@ Food delivery is a dynamic food delivery app built with the MERN stack, offering
 
 ## Images
 
-![image](https://github.com/user-attachments/assets/2d1a2c1a-6421-4c0f-befc-2f43584f2f5d)
-![image](https://github.com/user-attachments/assets/68c899c6-7036-4277-a0f2-102dee864b99)
-![image](https://github.com/user-attachments/assets/c8164b2b-2174-4068-ba69-dfd5523b9dc8)
+![image](https://github.com/user-attachments/assets/7ed215f0-54fd-47f7-b576-40a434683501)
+![image](https://github.com/user-attachments/assets/cfbc7a92-da57-403a-9d69-d128f5f8cd04)
+![image](https://github.com/user-attachments/assets/b6d0dfae-b451-455f-bbd4-7e3301dd213a)
+
+
+
